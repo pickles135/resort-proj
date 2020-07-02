@@ -7,6 +7,9 @@ export default class Navbar extends Component {
   state={
     isOpen = false 
   }
+  handleToggle = () => {
+    this.setState({isOpen: true})
+  }
     render() {
       return (
         <div>
