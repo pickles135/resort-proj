@@ -12,9 +12,13 @@ export default class Navbar extends Component {
   }
     render() {
       return (
-        <div>
-          Hello from the navbar
-        </div>
+        <nav className='navbar'>
+          <div className='nav-center'>
+            <div className='nav-header'>
+              
+            </div>
+          </div>
+        </nav>
       )
     }
   };   
