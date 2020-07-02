@@ -15,7 +15,9 @@ export default class Navbar extends Component {
         <nav className='navbar'>
           <div className='nav-center'>
             <div className='nav-header'>
-              
+              <Link to="/">
+                <img src={logo} alt="Beach Resort logo" />
+              </Link>
             </div>
           </div>
         </nav>
