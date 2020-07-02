@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import logo from '../images/logo.svg';
+import {FaAlignRight} from 'react-icons';
 
 export default class Navbar extends Component {
     render() {
@@ -8,4 +10,4 @@ export default class Navbar extends Component {
         </div>
       )
     }
-  };
+  };  
