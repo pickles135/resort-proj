@@ -11,7 +11,7 @@ import { Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <>
-      <Home />
+      <Route path="/" component={Home} />
       <Rooms />
       <SingleRoom />
       <Error />
