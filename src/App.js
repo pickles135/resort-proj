@@ -11,9 +11,9 @@ import { Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <>
-      <Route path="/" component={Home} />
-      <Rooms />
-      <SingleRoom />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/rooms/" component={Rooms} />
+      <Route exact path="/single-room/" component={SingleRoom} />
       <Error />
     </>
   );
