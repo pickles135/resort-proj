@@ -8,7 +8,12 @@ import Error from './pages/Error';
 
 function App() {
   return (
-    <> hello from app </>
+    <>
+      <Home />
+      <Rooms />
+      <SingleRoom />
+      <Error />
+    </>
   );
 }
 
