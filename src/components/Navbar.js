@@ -19,7 +19,7 @@ export default class Navbar extends Component {
                 <img src={logo} alt="Beach Resort logo" />
               </Link>
               <button type='button' className='nav-btn'>
-                
+                <FaAlignRight className='nav-icon' />
               </button>
             </div>
           </div>
