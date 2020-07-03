@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 export default class Navbar extends Component {
   state={
-    isOpen = false 
+    isOpen: false 
   }
   handleToggle = () => {
     this.setState({isOpen: !this.state.isOpen})
@@ -18,6 +18,9 @@ export default class Navbar extends Component {
               <Link to="/">
                 <img src={logo} alt="Beach Resort logo" />
               </Link>
+              <button type='button' className='nav-btn'>
+                
+              </button>
             </div>
           </div>
         </nav>
