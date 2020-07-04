@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 
 const Rooms = () => {
   return (
-    <div>This is the Rooms page</div>
+    <Hero hero="roomsHero" />
   )
 };
 
