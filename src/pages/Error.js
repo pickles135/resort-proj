@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function Error() {
   return <Hero>
-    <Banner title='404 Error' subtitle='no page exists'>
+    <Banner title='404 Error' subtitle='page not found'>
       <Link to="/">
         Go back to Home Page
       </Link>
