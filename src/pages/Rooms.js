@@ -5,7 +5,11 @@ import { Link } from 'react-router-dom';
 
 const Rooms = () => {
   return (
-    <Hero hero="roomsHero" />
+    <Hero hero="roomsHero">
+      <Banner title="Our Rooms">
+        
+      </Banner>
+    </Hero>
   )
 };
 
