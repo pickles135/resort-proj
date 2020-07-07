@@ -16,8 +16,8 @@ export default class Services extends Component {
         info: 'Lorem ipsum dolor sit amet, nonumes dissentiet per at.'
       },
       {
-        icon: <FaCocktail />,
-        title: 'free cocktails',
+        icon: <FaShuttleVan />,
+        title: 'close shuttle vans',
         info: 'Lorem ipsum dolor sit amet, nonumes dissentiet per at.'
       },
       {
