@@ -29,9 +29,9 @@ export default class Services extends Component {
   }
   render() {
     return (
-      <div>
+      <section>
         <Title title="services" />
-      </div>
+      </section>
     )
   };
 };
