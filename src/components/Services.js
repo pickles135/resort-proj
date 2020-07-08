@@ -36,6 +36,7 @@ export default class Services extends Component {
               return <article key={index} className="service">
                 <span>{item.icon}</span>
                 <h6>{item.title}</h6>
+                <p>{item.info}</p>
               </article>
             })}
           </div>
