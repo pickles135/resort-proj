@@ -12,17 +12,17 @@ export default class Services extends Component {
       },
       {
         icon: <FaHiking />,
-        title: 'hiking trails close by',
+        title: 'hiking trails',
         info: 'Lorem ipsum dolor sit amet, nonumes dissentiet per at.'
       },
       {
         icon: <FaShuttleVan />,
-        title: 'close shuttle vans',
+        title: 'shuttle vans',
         info: 'Lorem ipsum dolor sit amet, nonumes dissentiet per at.'
       },
       {
         icon: <FaBeer />,
-        title: 'brewerys close by',
+        title: 'brewerys',
         info: 'Lorem ipsum dolor sit amet, nonumes dissentiet per at.'
       },
     ]
