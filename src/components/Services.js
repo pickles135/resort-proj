@@ -30,7 +30,7 @@ export default class Services extends Component {
   render() {
     return (
       <section>
-        <Title title="services" />
+        <Title title="services" className="services" />
       </section>
     )
   };
